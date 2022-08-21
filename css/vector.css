@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  height: 43px;
+  width: 47px;
+}
+body {
+  background: url('./images/bg.jpg') no-repeat center center/cover;
+  height: 56.5vh;
+  background-attachment:fixed;
+}
+.body {
+  height: 975px;
+  margin: auto;
+  background: whitesmoke;
+  width: 360px;
+}
+.all-nav1 {
+  padding-left: 25px;
+  padding-right: 30px;
+  width: 360px;
+  height: 56.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.all-nav2 {
+  padding-left: 71px;
+  padding-right: 72px;
+  height: 72px;
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.text1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.text2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #ff9846;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  color: #111111;
+  margin-bottom: 10px;
+  margin-top: 10.5px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.cards {
+  margin: auto;
+  width: 330px;
+  margin-bottom: 20px;
+}
+.card1 {
+  height: 158px;
+  width: 330px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+.card-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card-description {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card2 {
+  height: 92px;
+  width: 330px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.card3 {
+  height: 224px;
+  width: 330px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.add {
+  height: 36px;
+  width: 330px;
+  background: #111111;
+  color: #f2f2f2;
+  border-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.add-div {
+  margin: auto;
+  width: 330px;
+  margin-bottom: 25px;
+}
+.telegram {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6e7077;
+  line-height: 22px;
+  margin-bottom: 10px;
+  letter-spacing: 0em;
+}
+
+.telegram-div {
+  margin: auto !important;
+  width: 50px;
+  margin-bottom: 30px !important;
+  background-color: rgb(0, 38, 255);
+  border-radius: 100%;
+}
+
+.phone {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #a4acad;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.address {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a4acad;
+  line-height: 22px;
+  margin-bottom: 11px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.textb {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: default;
+}
+
+.menu-text{
+    margin-top: 2.72px;
+}
+.cart-text{
+    margin-top: 2.06px;
+}
+.like-text{
+    margin-top: 1.25px;
+}
